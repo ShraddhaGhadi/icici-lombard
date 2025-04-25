@@ -5,7 +5,7 @@ const CommonQue = () => {
   return (
     <div className='bg-[#F8F6F6]'>
   <div className='lg:p-10 xl:pt-14 p-6 md:p-6 flex flex-col items-center xl:h-[1439px] max-w-[100rem] mx-auto'>
-          <p className='lg:text-4xl text-center font-bold lg:pb-10 pb-5 xl text-[#282828] text-3xl'>Get answers to common questions about car insurance policy</p>
+          <p className='lg:text-4xl md:text-4xl text-3xl text-center font-bold lg:pb-10 pb-5 xl text-[#282828] '>Get answers to common questions about car insurance policy</p>
           <div className=' w-[95%] lg:w-[70%] md:w-[85%]' >
             <div className='flex border-b border-gray-200 mb-4 overflow-auto '>
               <button className={`px-4 py-2 font-semibold border-b-2 ${activeTab === "general" 
@@ -26,7 +26,7 @@ const CommonQue = () => {
             </div>
 
             {activeTab === 'general' && (
-              <div className='py-4 px-12'>
+              <div className='py-4 md:px-12 '>
                 {/* <p className='font-bold pb-3'>General</p> */}
                 <div className='space-y-5'>
                   <div className='pb-4'>

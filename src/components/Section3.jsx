@@ -23,12 +23,12 @@ const slides = [
 const Section3 = () => {
     return (
         <div className='bg-[#FFF2EB]'>
-             <div className=" py-10 relative xl:h-[565px] max-w-[100rem] mx-auto  ">
-            <h2 className="text-center text-4xl font-bold mb-8 lg:mb-5">
+             <div className=" pt-12  relative xl:h-[565px] max-w-[100rem] mx-auto  ">
+            <h2 className="text-center py-4 md:text-4xl text-3xl font-bold mb-8 lg:mb-5 ">
                 What are the different types of car insurance policies?
             </h2>
             <div className=" max-w-5xl xl:max-w-5xl lg:max-w-4xl md:max-w-2xl mx-auto px-4 flex justify-between">
-                <div className="hidden xl:block absolute top-1/2 -left-18 lg:-left-3 xl:left-32 md:hidden z-10 -translate-y-1/2 cursor-pointer swiper-button-prev-custom">
+                <div className="hidden xl:block absolute top-1/2 -left-18 lg:-left-3 xl:left-32 md:hidden z-10 -translate-y-1/2 cursor-pointer swiper-button-prev-custom ">
                     <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Group 126" filter="url(#filter0_d_1_389)">
                             <circle id="Oval Copy 2" cx="41" cy="36" r="25" fill="white" stroke="#CBCDCE" />
@@ -82,11 +82,11 @@ const Section3 = () => {
                 >
                     {slides.map((slide, index) => (
                         <SwiperSlide key={index} className=''>
-                            <div className="bg-white p-6 md:p-4 lg:p-5 rounded-3xl flex flex-col md:justify-start md:flex-row  md:items-start  lg:flex-row gap-8 ">
+                            <div className="bg-white p-6 md:p-4 lg:p-5 rounded-3xl flex flex-col md:justify-start md:flex-row  md:items-start  lg:flex-row gap-8 xl:h-[365px]">
                                     <img
                                         src={slide.image}
                                         alt={slide.title}
-                                        className=" mt-3"
+                                        className=" mt-3 select-none pointer-events-none"
                                     />
                                 <div className="flex flex-col  gap-4 text-left">
                                     <h3 className="text-xl font-bold">{slide.title}</h3>

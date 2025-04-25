@@ -64,7 +64,7 @@ const Nav_bottom = () => {
       <div className=" flex items-center bg-gradient-to-b from-orange-500 to-red-800 px-6 lg:px-12 md:px-5 h-[60px] w-full">
         <div className="max-w-[100rem] mx-auto flex justify-between items-center w-full">
           <div className="flex items-center gap-5">
-            <img src={logo} alt="logo" className="h-8" />
+            <img src={logo} alt="logo" className="h-8 select-none pointer-events-none" />
 
             {/* Desktop Menu */}
             <div ref={dropdownRef} className="hidden lg:flex items-center gap-4 lg:text-xs lg:gap-2 text-white">

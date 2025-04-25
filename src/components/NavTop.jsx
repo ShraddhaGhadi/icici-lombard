@@ -46,14 +46,14 @@ const Nav_top = () => {
   return (
     <div className="max-w-[100rem] mx-auto flex justify-between md:justify-center lg:justify-between  items-center bg-white h-[44px]  text-sm md:px-12 ">
 
-      <div className="flex items-center justify-center md:space-x-4 px-8 lg:px-0 xl:px-0">
+      <div className="flex items-center justify-center md:space-x-4 mx-auto md:mx-0 lg:px-0 xl:px-0">
         <div className="flex items-center px-2 md:px-0 space-x-1">
-          <img src={call} />
+          <img src={call} className='select-none pointer-events-none' />
           <span className="font-semibold md:text-xs">1800 2666</span>
         </div>
 
         <div className="border-l md:pl-4 px-2 md:px-0 text-gray-600 cursor-pointer flex items-center space-x-1 " >
-          <img src={call_back} />
+          <img src={call_back} className='select-none pointer-events-none' />
           <span className='font-medium text-gray-700 md:text-xs'>Call Back</span>
         </div>
 

@@ -9,10 +9,10 @@ const Section2 = () => {
         <div className=''>
             <div className='bg-[#F8F6F6]'>
             <div className='max-w-[100rem] mx-auto flex flex-col items-center lg:px-10 p-6 md:p-6  xl:h-[300px] '>
-                <p className='text-4xl font-bold text-center'>Why our customers love us?</p>
+                <p className='md:text-4xl text-3xl font-bold text-center'>Why our customers love us?</p>
                 <p className='text-base  text-gray-500 pt-3'>And, we think you will too.</p>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  xl:pt-8 xl:px-10 xl:pb-0 gap-7 lg:p-10 p-4 md:p-6 w-full'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  xl:pt-8 xl:px-10 xl:pb-0 gap-7 lg:p-10 p-4 md:p-6 w-full select-none pointer-events-none'>
                     <div className='flex space-x-5 bg-white p-4 md:p-2 rounded-md lg:h-[99px] items-center md:pl-5'>
                         <svg width="36" height="46" viewBox="0 0 36 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_297)">
@@ -32,7 +32,7 @@ const Section2 = () => {
 
 
                     </div>
-                    <div className='flex space-x-5 bg-white p-4 md:p-2 rounded-md lg:h-[99px] items-center md:pl-5'>
+                    <div className='flex space-x-5 bg-white p-4 md:p-2 rounded-md lg:h-[99px] items-center md:pl-5 select-none pointer-events-none'>
                         <svg width="32" height="48" viewBox="0 0 32 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_288)">
                                 <path d="M26.4786 1.0498H4.56859C2.59859 1.0498 1.05859 2.5998 1.05859 4.5598V43.0598C1.05859 45.0298 2.60859 46.5698 4.56859 46.5698H26.4786C28.4486 46.5698 29.9886 45.0198 29.9886 43.0598V4.5698C29.9886 2.5998 28.4386 1.0598 26.4786 1.0598V1.0498Z" stroke="#0B4B7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -76,10 +76,10 @@ const Section2 = () => {
           
             <div className='max-w-[100rem] mx-auto flex justify-between flex-wrap py-4 xl:h-[398px] px-4 md:px-0'>
                 <div className='w-full lg:w-1/2 flex justify-center items-center'>
-                    <img src={carImg} alt="Car" className="max-w-full h-auto" />
+                    <img src={carImg} alt="Car" className="max-w-full h-auto select-none pointer-events-none" />
                 </div>
-                <div className='w-full lg:w-1/2 pt-2 md:p-5'>
-                    <p className='text-4xl font-bold'>What is car insurance?</p>
+                <div className='w-full lg:w-1/2 pt-4 md:p-5'>
+                    <p className='md:text-4xl text-3xl font-bold'>What is car insurance?</p>
                     <p className='text-base font-normal pt-4 lg:pr-10 md:pr-5 '>
                         A comprehensive car insurance policy, also known as motor package insurance, saves you money when your car is damaged in an accident or natural calamity. It also covers your vehicle against theft and burglary. At times, you may end up hurting others or damaging property in an accident. A car insurance policy covers such third-party liabilities as well. If you own a car in India, having third party car insurance is a must for you. That’s why it’s crucial to buy and renew your policy on time to stay on the right side of the law and be covered against car damages. At an affordable premium, our reliable car insurance policy protects you against all these risks so that you can drive worry-free. Apart from comprehensive car insurance, third-party only and own-damage only car insurance policies are also available. You can choose the policy type as per your needs.
                     </p>

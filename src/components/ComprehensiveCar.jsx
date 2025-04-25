@@ -3,7 +3,7 @@ import React from 'react'
 const ComprehensiveCar = () => {
   return (
     <div className='comCar p-10 xl:h-[820px]'>
-      <h1 className='text-4xl font-bold text-center pb-4'>Comprehensive car insurance vs Third party car insurance</h1>
+      <h1 className='md:text-4xl text-3xl font-bold text-center pb-4 pt-1'>Comprehensive car insurance vs Third party car insurance</h1>
       <div className='lg:p-10 flex justify-center rounded-lg ' >
         <div className='overflow-x-auto '>
           <div className='min-w-[600px]  md:min-w-[883px] overflow-hidden rounded-2xl '>

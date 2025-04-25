@@ -3,8 +3,8 @@ import React from 'react'
 const InsurancePolicy = () => {
     return (
         <div className='bg-[#00305B] '>
-              <div className='max-w-[100rem] mx-auto   lg:p-12 p-4 md:p-6 text-white xl:h-[883px]'>
-            <p className='text-4xl font-bold text-center pb-3'>How to choose the right car insurance policy online?</p>
+              <div className='max-w-[100rem] mx-auto   lg:p-12 p-4 lg:pt-14  md:p-6 text-white xl:h-[883px]'>
+            <p className='md:text-4xl text-3xl font-bold text-center pb-3'>How to choose the right car insurance policy online?</p>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:p-8 p-2 gap-6'>
                 <div className='flex gap-5 lg:gap-3 border border-[#065E9E] p-5 lg:p-5 md:p-4 xl:h-[280px] rounded-3xl'>
                     <div className='text-[#F26624] text-5xl font-bold'> 1</div>

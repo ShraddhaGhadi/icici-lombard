@@ -4,10 +4,10 @@ const Things = () => {
     return (
         <div className=' bg-[#F8F6F6] pt-8 md:pt-0'>
     <div className='max-w-[100rem] mx-auto  lg:p-10 p-4 md:p-3  xl:h-[630px]'>
-            <p className='text-4xl text-center font-bold lg:pb-8 pb-4 text-[#282828]'>Things to keep in mind while buying a car insurance policy</p>
-            <div className='grid md:grid-cols-2 grid-cols-1  lg:p-6 p-4 gap-5'>
-                <div className='flex gap-4 bg-white lg:p-8 p-4 md:p-4 rounded-xl' >
-                    <div className='md:items-center md:flex lg:items-start md:pt-4'>
+            <p className='md:text-4xl text-3xl text-center font-bold lg:pb-8 pb-10 pt-5  text-[#282828]'>Things to keep in mind while buying a car insurance policy</p>
+            <div className='grid md:grid-cols-2 grid-cols-1  lg:p-6 p-4 gap-6'>
+                <div className='flex gap-4 bg-white lg:p-8 p-4 md:p-4 rounded-xl lg:h-[187px] ' >
+                    <div className='md:items-center md:flex lg:items-start md:pt-4 select-none pointer-events-none'>
                         <svg width="35" height="39" viewBox="0 0 35 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_1103)">
                                 <path d="M5.06 32.59V2.99C5.06 1.89 5.95 1 7.05 1H31.41C32.51 1 33.4 1.89 33.4 2.99V32.41C33.4 35.39 30.98 37.81 28 37.81C28 37.81 6.68 37.74 6.11 37.73C3.28 37.69 1 35.41 1 32.58C1 32.69 16.23 32.63 23.21 32.6C24.86 32.6 26.23 33.74 26.64 35.34C26.88 36.27 27.44 37.2 28.65 37.67" stroke="#004A80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -27,8 +27,8 @@ const Things = () => {
                         <p>Check the policy inclusions and exclusions thoroughly to know what’s covered and what’s not. Choose the right type of policy & coverage to ensure that you are well protected at the time of claim.</p>
                     </div>
                 </div>
-                <div className='flex gap-4 bg-white lg:p-8 p-4 md:p-4  rounded-xl'>
-                    <div className='md:items-center md:flex lg:items-start md:pt-4'>
+                <div className='flex gap-4 bg-white lg:p-8 p-4 md:p-4  rounded-xl lg:h-[187px]'>
+                    <div className='md:items-center md:flex lg:items-start md:pt-4 select-none pointer-events-none'>
                     <svg width="39" height="43" viewBox="0 0 39 43" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_1123)">
 <path d="M22.74 41.62H4.38C2.51 41.62 1 40.1 1 38.24V4.38C1 2.52 2.52 1 4.38 1H27.16C29.03 1 30.54 2.52 30.54 4.38V16.29" stroke="#004A80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -51,8 +51,8 @@ const Things = () => {
                         <p>Add-ons come with great benefits at a nominal extra charge and each one of them serves a specific purpose. Evaluate them closely and pick the ones you need to cover your car against accidental damages reasonably.</p>
                     </div>
                 </div>
-                <div className='flex gap-4 bg-white lg:p-8 p-4 md:p-4  rounded-xl'>
-                    <div className='md:items-center md:flex lg:items-start md:pt-4'>
+                <div className='flex gap-4 bg-white lg:p-8 p-4 md:p-4  rounded-xl lg:h-[187px]'>
+                    <div className='md:items-center md:flex lg:items-start md:pt-4 select-none pointer-events-none'>
                     <svg width="35" height="38" viewBox="0 0 35 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_1112)">
 <path d="M30.7659 24.3936V27.5007C30.7659 30.9343 27.6587 35.2843 22.9823 35.2843H19.8751" stroke="#004A80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -74,7 +74,7 @@ const Things = () => {
                         <p>Availability of cashless garages, easy claims process and reliable customer support are a must.</p>
                     </div>
                 </div>
-                <div className='flex gap-4 bg-white lg:p-8 p-4 md:p-4  rounded-xl'>
+                <div className='flex gap-4 bg-white lg:p-8 p-4 md:p-4  rounded-xl lg:h-[187px]'>
                     <div className='md:items-center md:flex lg:items-start md:pt-4'>
                     <svg width="41" height="36" viewBox="0 0 41 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_1139)">

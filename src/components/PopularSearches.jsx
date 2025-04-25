@@ -6,8 +6,8 @@ const searches = ["Health Insurance","Bike Insurance","Travel Insurance","Vehicl
 const PopularSearches = () => {
   return (
     <div className='bg-[#F8F6F6]'>
-  <div className='max-w-[100rem] mx-auto p-4 xl:py-5 md:p-6 lg:p-10  grid md:grid-cols-1 xl:h-[381px] lg:grid-cols-1 xl:flex place-items-center gap-4'>
-      <div className='flex justify-center lg:items-center items-center xl:pl-20'>
+  <div className='max-w-[100rem] mx-auto p-4 xl:py-5 md:p-6 lg:pl-6 lg:pr-4  grid md:grid-cols-1 xl:h-[381px] lg:grid-cols-1 xl:flex place-items-center gap-4'>
+      <div className='flex justify-center lg:items-center items-center xl:pl-20 select-none pointer-events-none'>
       <svg width="290" height="212" viewBox="0 0 290 212" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_807)">
 <path d="M277.816 143.997C274.278 140.657 272.2 136.069 272.292 131.204C272.292 130.956 272.299 130.708 272.299 130.452C272.299 120.786 268.81 111.936 263.016 105.085C258.109 99.2773 257.697 90.7885 262.321 84.7606C267.342 78.2221 270.328 70.0312 270.328 61.1453C270.328 39.7001 252.946 22.3184 231.501 22.3184H83.0648C61.6196 22.3184 44.2379 39.7001 44.2379 61.1453C44.2379 67.0598 45.564 72.6693 47.9326 77.6902C50.8828 83.9451 46.2377 91.1289 39.3234 91.1289C17.6086 91.1289 0 108.73 0 130.452H0C0 152.167 17.6015 169.776 39.3234 169.776H79.2069C80.5402 169.776 81.5968 170.875 81.5898 172.208V172.229C81.5898 193.675 98.9715 211.056 120.417 211.056H251.159C272.604 211.056 289.986 193.675 289.986 172.229C289.986 161.103 285.305 151.068 277.809 143.99L277.816 143.997Z" fill="white"/>
@@ -70,10 +70,11 @@ const PopularSearches = () => {
 
       </div>
       <div>
+      <p className='lg:text-4xl md:text-4xl text-3xl font-bold  pb-4 lg:pl-12 pt-4'>Popular Searches</p>
         <div className='flex flex-wrap lg:pl-10 px-3 md:px-0.5 py-5 lg:py-2'>
         {searches.map((search,index) => (
-        <div key={index} className='my-3 mx-2'>
-              <span className='bg-white text-[#282828] hover:bg-[#FFF2EB] hover:shadow-md lg:px-4 px-2 lg:py-2  py-2 mb-5 rounded-full general-text '>{search}</span>
+        <div key={index} className='my-[10px] mx-1'>
+              <span className='bg-white text-[#282828] hover:bg-[#FFF2EB] hover:shadow-md lg:px-4 px-2 lg:py-[6px]  py-2 mb-5 rounded-full general-text '>{search}</span>
         </div>     
         ))}
         </div>

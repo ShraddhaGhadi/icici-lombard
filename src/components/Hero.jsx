@@ -3,7 +3,7 @@ import car from '../assets/Car.svg'
 
 const Header = () => {
   return (
-    <div className='max-w-[100rem] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3  justify-between items-center xl:items-start pt-9 pb-24 md:gap-1'>
+    <div className='max-w-[100rem] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3  justify-between items-center xl:items-start pt-9 pb-16 md:gap-1'>
       <div className=" lg:pl-10 pl-6 md:pl-2  md:flex md:flex-col md:items-center xl:items-start xl:pt-16">
         <p className='text-5xl mb-2 text-gray-900 pb-1 font-black'>Car insurance</p>
         <p className='font-medium text-[28px] text-gray-900 pb-1'>Prices starting at just ₹2,094/yr</p>
@@ -70,8 +70,8 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center h-full select-none lg:flex w-full px-4 md:px-0">
-        <img src={car} alt="Car" className="max-w-full w-[410px] mt-6 xl:-ml-28 " />
+      <div className="flex justify-center items-center h-full lg:flex w-full px-4 md:px-0">
+        <img src={car} alt="Car" className="max-w-full w-[410px] xl:-ml-28  select-none pointer-events-none" />
       </div>
 
       <div className='flex flex-col justify-center items-center pt-8'>

@@ -25,8 +25,8 @@ I am truly thankful.`,
 
 const RatingReview = () => {
     return (
-        <div className='p-6 lg:p-10 flex flex-col items-center xl:h-[680px]'>
-            <p className='text-4xl text-center font-bold pb-8 text-[#282828]'>Ratings and reviews</p>
+        <div className='p-6 lg:pt-20 lg:p-10 flex flex-col items-center xl:h-[680px]'>
+            <p className='md:text-4xl text-3xl text-center font-bold pb-8 text-[#282828]'>Ratings and reviews</p>
 
             <div className='flex justify-between lg:flex-row md:flex-row items-center lg:items-start gap-4  md:grid-cols-2 '>
                 <div className='lg:border-r lg:border-r-slate-400 md:border-r md:border-r-slate-400 grid grid-cols-2 lg:pr-4 md:pr-4'>
@@ -44,7 +44,7 @@ const RatingReview = () => {
             </div>
 
             <div className='relative w-full md:max-w-5xl mx-auto px-4 mt-10'>
-                <div className="hidden xl:block absolute top-1/2 -left-11 z-10 -translate-y-1/2 cursor-pointer swiper-button-prev-custom ">
+                <div className="hidden xl:block absolute top-1/2 -left-16 z-10 -translate-y-1/2 cursor-pointer swiper-button-prev-custom ">
                     <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Group 126" filter="url(#filter0_d_1_389)">
                             <circle id="Oval Copy 2" cx="41" cy="36" r="25" fill="white" stroke="#CBCDCE" />
@@ -63,7 +63,7 @@ const RatingReview = () => {
                         </defs>
                     </svg>
                 </div>
-                <div className="hidden xl:block absolute top-1/2 -right-11 z-10 -translate-y-1/2 cursor-pointer swiper-button-next-custom">
+                <div className="hidden xl:block absolute top-1/2 -right-16 z-10 -translate-y-1/2 cursor-pointer swiper-button-next-custom">
                     <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Group 119" filter="url(#filter0_d_1_482)">
                             <circle id="Oval Copy 2" cx="31" cy="36" r="25" fill="#EC6625" stroke="#EAEAEA" />
@@ -111,7 +111,7 @@ const RatingReview = () => {
                     {slides.map((slide, index) => (
                         <SwiperSlide key={index}>
                             <div className='flex flex-col justify-center items-center'>
-                                <div className='p-4 w-[270px] lg:w-[300px] sm:w-[350px] md:w-[350px] xl:w-[400px]'>
+                                <div className='p-4 w-[270px] lg:w-[300px] xl:h-[234px] sm:w-[350px] md:w-[350px] xl:w-[400px]'>
                                     <div className='flex justify-between items-center'>
                                         <div className='flex gap-3 w-full'>
                                             <div className='border-r border-r-slate-400 pr-4'><p>{slide.name}</p></div>

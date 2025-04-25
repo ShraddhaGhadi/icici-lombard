@@ -27,8 +27,8 @@ const Footer = () => {
             <div className='bg-[#ECE9E9] p-5 px-4 xl:h-[348px]'>
                 <div className='max-w-[100rem] mx-auto lg:py-10 py-5 md:px-8 lg:px-4 grid grid-cols-1 md:grid-cols-2 gap-10'>
                     <div className='flex-2'>
-                        <img src={FooterLogo} alt="" />
-                        <div className='py-7'>
+                        <img src={FooterLogo} alt="" className='select-none pointer-events-none'/>
+                        <div className='py-7 '>
                             <p className='text-base '>ICICI Lombard General Insurance Company Limited, </p>
                             <p className='text-sm py-3'>ICICI Lombard House, 414, Veer Savarkar Marg, Near Siddhi Vinayak Temple, Prabhadevi, Mumbai - 400025.</p>
                             <p className='text-sm'>Email: customersupport@icicilombard.com

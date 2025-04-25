@@ -2,8 +2,8 @@ import React from 'react'
 
 const InsurancePremium = () => {
     return (
-        <div className='max-w-[100rem] mx-auto p-2 lg:p-6 md:p-3 xl:h-[737px] pt-8 md:pt-0'>
-            <p className='text-4xl text-center font-bold lg:pb-10 pb-4 text-[#282828]'>How is car insurance premium calculated?</p>
+        <div className='max-w-[100rem] mx-auto p-2 lg:p-6 md:p-3 xl:h-[737px] pt-16 md:pt-0'>
+            <p className='md:text-4xl text-3xl text-center font-bold lg:pb-10 pb-4 text-[#282828]'>How is car insurance premium calculated?</p>
             <div className='lg:flex mx-8 pt-5 gap-10 grid-cols-2'>
                 <div className='lg:flex-6'>
                     <p className='font-semibold text-lg pb-4'>Your car insurance premium includes three major components:</p>
